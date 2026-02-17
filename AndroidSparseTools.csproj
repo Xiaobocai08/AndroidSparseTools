@@ -9,4 +9,9 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="VC-LTL" Version="5.3.1" />
+    <PackageReference Include="YY-Thunks" Version="1.1.9" />
+  </ItemGroup>
+
 </Project>
