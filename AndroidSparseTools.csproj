@@ -1,17 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <PublishAot>true</PublishAot>
-    <InvariantGlobalization>true</InvariantGlobalization>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishAot>true</PublishAot>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<WindowsSupportedOSPlatformVersion>5.1</WindowsSupportedOSPlatformVersion>
+		<TargetPlatformMinVersion>5.1</TargetPlatformMinVersion>
+		<BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+		<CustomResourceTypesSupport>true</CustomResourceTypesSupport>
+		<OptimizationPreference>Size</OptimizationPreference>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="VC-LTL" Version="5.3.1" />
-    <PackageReference Include="YY-Thunks" Version="1.1.9" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="VC-LTL" Version="5.3.1" />
+		<PackageReference Include="YY-Thunks" Version="1.1.9" />
+	</ItemGroup>
 
 </Project>
